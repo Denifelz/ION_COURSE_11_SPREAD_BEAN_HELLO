@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="1" class="com.spring.tutorial.hello.City">
+        <property name="name" value="Chisinau"/>
+        <property name="population" value="1000000"/>
+        <property name="budget" value="999999.99"/>
+    </bean>
+    <bean id="2" class="com.spring.tutorial.hello.City">
+        <property name="name" value="Balti"/>
+        <property name="population" value="200000"/>
+        <property name="budget" value="100000"/>
+    </bean>
+    <bean id="3" class="com.spring.tutorial.hello.City">
+        <property name="name" value="Cahul"/>
+        <property name="population" value="100000"/>
+        <property name="budget" value="90000"/>
+    </bean>
+</beans>
